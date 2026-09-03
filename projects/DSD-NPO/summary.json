@@ -1,13 +1,13 @@
 {
   "totalPlans": 46,
-  "totalRuns": 52,
-  "last7Runs": 30,
-  "last7Pass": 3,
-  "last7PassPct": 10,
-  "failingFlows": 21,
+  "totalRuns": 72,
+  "last7Runs": 20,
+  "last7Pass": 8,
+  "last7PassPct": 40,
+  "failingFlows": 31,
   "lastRun": {
-    "date": "2026-08-21",
-    "result": "PARTIAL",
-    "plan": "test-plans/npo-registration/03-wizard-org-details-objectives.md"
+    "date": "2026-09-03",
+    "result": "FAILED",
+    "plan": "test-plans/auth/01-authentication-account-creation.md"
   }
 }

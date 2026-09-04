@@ -22,8 +22,8 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 33,
-    "totalRuns": 68,
-    "last7Runs": 35,
+    "totalRuns": 103,
+    "last7Runs": 70,
     "last7Pass": 0,
     "last7PassPct": 0,
     "failingFlows": 35,
@@ -2571,9 +2571,9 @@
       },
       {
         "iso": "2026-09-04",
-        "runs": 0,
+        "runs": 35,
         "passed": 0,
-        "failed": 0,
+        "failed": 35,
         "partial": 0
       },
       {
@@ -2601,14 +2601,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "8.2s",
+            "duration": "9.1s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/empty-username-and-password.md"
+            "reportHref": "test-reports/2026-09-04/empty-username-and-password.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "9.1s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2634,14 +2640,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "7.6s",
+            "duration": "7.9s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/invalid-login.md"
+            "reportHref": "test-reports/2026-09-04/invalid-login.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "7.9s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2667,14 +2679,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "7.5s",
+            "duration": "8s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/invalid-username-valid-password.md"
+            "reportHref": "test-reports/2026-09-04/invalid-username-valid-password.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "8s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2700,14 +2718,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "8.2s",
+            "duration": "8s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/valid-login.md"
+            "reportHref": "test-reports/2026-09-04/valid-login.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "8s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2733,14 +2757,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "8.1s",
+            "duration": "7.8s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/valid-username-invalid-password.md"
+            "reportHref": "test-reports/2026-09-04/valid-username-invalid-password.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "7.8s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2773,14 +2803,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.7s",
+            "duration": "43.6s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-action-required-auto-populate-action-text.md"
+            "reportHref": "test-reports/2026-09-04/verify-action-required-auto-populate-action-text.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.6s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2806,14 +2842,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.4s",
+            "duration": "43.3s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-add-referral.md"
+            "reportHref": "test-reports/2026-09-04/verify-add-referral.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.3s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2839,14 +2881,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.9s",
+            "duration": "43.7s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-approve-memo.md"
+            "reportHref": "test-reports/2026-09-04/verify-approve-memo.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.7s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2872,14 +2920,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.6s",
+            "duration": "45.3s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-attach-supporting-documents.md"
+            "reportHref": "test-reports/2026-09-04/verify-attach-supporting-documents.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.3s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2905,14 +2959,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.4s",
+            "duration": "43.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-attachments-next-button-navigation.md"
+            "reportHref": "test-reports/2026-09-04/verify-attachments-next-button-navigation.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.2s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2938,14 +2998,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "45.6s",
+            "duration": "43.6s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-can-edit-disabled-hides-edit-button.md"
+            "reportHref": "test-reports/2026-09-04/verify-can-edit-disabled-hides-edit-button.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.6s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -2971,14 +3037,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.6s",
+            "duration": "43.3s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-can-edit-enabled-shows-edit-button.md"
+            "reportHref": "test-reports/2026-09-04/verify-can-edit-enabled-shows-edit-button.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.3s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3004,14 +3076,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.6s",
+            "duration": "45.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-cc-user-in-routing-list.md"
+            "reportHref": "test-reports/2026-09-04/verify-cc-user-in-routing-list.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.2s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3037,14 +3115,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "45.2s",
+            "duration": "43.6s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-close-memo.md"
+            "reportHref": "test-reports/2026-09-04/verify-close-memo.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.6s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3070,14 +3154,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.5s",
+            "duration": "45s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-comments-mandatory-for-negative-actions-craig.md"
+            "reportHref": "test-reports/2026-09-04/verify-comments-mandatory-for-negative-actions-craig.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3103,14 +3193,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "41.7s",
+            "duration": "41.9s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-comments-mandatory-for-negative-actions.md"
+            "reportHref": "test-reports/2026-09-04/verify-comments-mandatory-for-negative-actions.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "41.9s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3136,14 +3232,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "45.4s",
+            "duration": "45.1s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-edit-delete-signatory.md"
+            "reportHref": "test-reports/2026-09-04/verify-edit-delete-signatory.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.1s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3169,14 +3271,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.8s",
+            "duration": "43.5s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-mandatory-data-validation.md"
+            "reportHref": "test-reports/2026-09-04/verify-mandatory-data-validation.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.5s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3202,14 +3310,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "44.2s",
+            "duration": "43s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-new-draft-version-creation.md"
+            "reportHref": "test-reports/2026-09-04/verify-new-draft-version-creation.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3235,14 +3349,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "45.4s",
+            "duration": "45.3s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-new-version-created.md"
+            "reportHref": "test-reports/2026-09-04/verify-new-version-created.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.3s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3268,14 +3388,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.3s",
+            "duration": "45.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-next-button-navigation.md"
+            "reportHref": "test-reports/2026-09-04/verify-next-button-navigation.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.2s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3301,14 +3427,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
             "duration": "43.5s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-preview-in-pdf.md"
+            "reportHref": "test-reports/2026-09-04/verify-preview-in-pdf.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.5s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3334,14 +3466,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "32.6s",
+            "duration": "31.1s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-reassign-function.md"
+            "reportHref": "test-reports/2026-09-04/verify-reassign-function.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "31.1s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3367,14 +3505,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.8s",
+            "duration": "43.4s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-recommend-memo.md"
+            "reportHref": "test-reports/2026-09-04/verify-recommend-memo.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.4s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3400,14 +3544,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.4s",
+            "duration": "45s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-reorder-signatories.md"
+            "reportHref": "test-reports/2026-09-04/verify-reorder-signatories.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3433,14 +3583,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.8s",
+            "duration": "43.3s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-replace-supporting-documents.md"
+            "reportHref": "test-reports/2026-09-04/verify-replace-supporting-documents.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.3s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3466,14 +3622,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "44.1s",
+            "duration": "45.5s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-retract-functionality.md"
+            "reportHref": "test-reports/2026-09-04/verify-retract-functionality.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.5s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3499,14 +3661,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.9s",
+            "duration": "43.6s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-send-back.md"
+            "reportHref": "test-reports/2026-09-04/verify-send-back.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.6s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3532,14 +3700,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.7s",
+            "duration": "43.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-send-to-approver-first.md"
+            "reportHref": "test-reports/2026-09-04/verify-send-to-approver-first.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.2s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3565,14 +3739,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.6s",
+            "duration": "43.5s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-tabs-under-compose-step.md"
+            "reportHref": "test-reports/2026-09-04/verify-tabs-under-compose-step.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.5s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3598,14 +3778,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.8s",
+            "duration": "43.6s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-take-ownership.md"
+            "reportHref": "test-reports/2026-09-04/verify-take-ownership.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "43.6s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3631,14 +3817,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "45.3s",
+            "duration": "45.7s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-withdraw-button.md"
+            "reportHref": "test-reports/2026-09-04/verify-withdraw-button.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.7s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3664,14 +3856,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "result": "FAILED",
-            "duration": "43.6s",
+            "duration": "45.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-03/verify-withdraw-memo.md"
+            "reportHref": "test-reports/2026-09-04/verify-withdraw-memo.md"
           },
-          "runCount": 2,
+          "runCount": 3,
           "history": [
+            {
+              "date": "2026-09-04",
+              "result": "FAILED",
+              "duration": "45.2s",
+              "variant": null
+            },
             {
               "date": "2026-09-03",
               "result": "FAILED",
@@ -3691,6 +3889,326 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-09-04",
+      "runs": [
+        {
+          "plan": "test-plans/Memo/_adhoc-craig-myitems-retract.md",
+          "planDisplay": "Memo/_adhoc-craig-myitems-retract.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "73.9s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/_adhoc-craig-myitems-retract.md"
+        },
+        {
+          "plan": "test-plans/Memo/_adhoc-craig-newversion-ref08200.md",
+          "planDisplay": "Memo/_adhoc-craig-newversion-ref08200.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "102.9s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/_adhoc-craig-newversion-ref08200.md"
+        },
+        {
+          "plan": "test-plans/Login/empty-username-and-password.md",
+          "planDisplay": "Login/empty-username-and-password.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "9.1s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/empty-username-and-password.md"
+        },
+        {
+          "plan": "test-plans/Login/invalid-login.md",
+          "planDisplay": "Login/invalid-login.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "7.9s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/invalid-login.md"
+        },
+        {
+          "plan": "test-plans/Login/invalid-username-valid-password.md",
+          "planDisplay": "Login/invalid-username-valid-password.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "8s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/invalid-username-valid-password.md"
+        },
+        {
+          "plan": "test-plans/Login/valid-login.md",
+          "planDisplay": "Login/valid-login.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "8s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/valid-login.md"
+        },
+        {
+          "plan": "test-plans/Login/valid-username-invalid-password.md",
+          "planDisplay": "Login/valid-username-invalid-password.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "7.8s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/valid-username-invalid-password.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-action-required-auto-populate-action-text.md",
+          "planDisplay": "Memo/verify-action-required-auto-populate-action-text.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.6s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-action-required-auto-populate-action-text.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-add-referral.md",
+          "planDisplay": "Memo/verify-add-referral.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.3s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-add-referral.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-approve-memo.md",
+          "planDisplay": "Memo/verify-approve-memo.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.7s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-approve-memo.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-attach-supporting-documents.md",
+          "planDisplay": "Memo/verify-attach-supporting-documents.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.3s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-attach-supporting-documents.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-attachments-next-button-navigation.md",
+          "planDisplay": "Memo/verify-attachments-next-button-navigation.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-attachments-next-button-navigation.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-can-edit-disabled-hides-edit-button.md",
+          "planDisplay": "Memo/verify-can-edit-disabled-hides-edit-button.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.6s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-can-edit-disabled-hides-edit-button.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-can-edit-enabled-shows-edit-button.md",
+          "planDisplay": "Memo/verify-can-edit-enabled-shows-edit-button.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.3s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-can-edit-enabled-shows-edit-button.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-cc-user-in-routing-list.md",
+          "planDisplay": "Memo/verify-cc-user-in-routing-list.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-cc-user-in-routing-list.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-close-memo.md",
+          "planDisplay": "Memo/verify-close-memo.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.6s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-close-memo.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-comments-mandatory-for-negative-actions-craig.md",
+          "planDisplay": "Memo/verify-comments-mandatory-for-negative-actions-craig.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-comments-mandatory-for-negative-actions-craig.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-comments-mandatory-for-negative-actions.md",
+          "planDisplay": "Memo/verify-comments-mandatory-for-negative-actions.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "41.9s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-comments-mandatory-for-negative-actions.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-edit-delete-signatory.md",
+          "planDisplay": "Memo/verify-edit-delete-signatory.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.1s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-edit-delete-signatory.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-mandatory-data-validation.md",
+          "planDisplay": "Memo/verify-mandatory-data-validation.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.5s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-mandatory-data-validation.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-new-draft-version-creation.md",
+          "planDisplay": "Memo/verify-new-draft-version-creation.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-new-draft-version-creation.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-new-version-created.md",
+          "planDisplay": "Memo/verify-new-version-created.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.3s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-new-version-created.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-next-button-navigation.md",
+          "planDisplay": "Memo/verify-next-button-navigation.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-next-button-navigation.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-preview-in-pdf.md",
+          "planDisplay": "Memo/verify-preview-in-pdf.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.5s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-preview-in-pdf.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-reassign-function.md",
+          "planDisplay": "Memo/verify-reassign-function.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "31.1s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-reassign-function.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-recommend-memo.md",
+          "planDisplay": "Memo/verify-recommend-memo.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.4s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-recommend-memo.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-reorder-signatories.md",
+          "planDisplay": "Memo/verify-reorder-signatories.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-reorder-signatories.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-replace-supporting-documents.md",
+          "planDisplay": "Memo/verify-replace-supporting-documents.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.3s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-replace-supporting-documents.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-retract-functionality.md",
+          "planDisplay": "Memo/verify-retract-functionality.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.5s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-retract-functionality.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-send-back.md",
+          "planDisplay": "Memo/verify-send-back.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.6s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-send-back.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-send-to-approver-first.md",
+          "planDisplay": "Memo/verify-send-to-approver-first.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-send-to-approver-first.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-tabs-under-compose-step.md",
+          "planDisplay": "Memo/verify-tabs-under-compose-step.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.5s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-tabs-under-compose-step.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-take-ownership.md",
+          "planDisplay": "Memo/verify-take-ownership.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "43.6s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-take-ownership.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-withdraw-button.md",
+          "planDisplay": "Memo/verify-withdraw-button.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.7s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-withdraw-button.md"
+        },
+        {
+          "plan": "test-plans/Memo/verify-withdraw-memo.md",
+          "planDisplay": "Memo/verify-withdraw-memo.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "45.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-04/verify-withdraw-memo.md"
+        }
+      ]
+    },
     {
       "date": "2026-09-03",
       "runs": [
@@ -4334,5 +4852,5 @@
       ]
     }
   ],
-  "generated": "2026-09-03T04:39:28.690Z"
+  "generated": "2026-09-04T04:36:14.689Z"
 }

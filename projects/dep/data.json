@@ -2706,7 +2706,12 @@
           "spec": "test-plans/customers/create-customer.spec.ts",
           "specHref": "test-plans/customers/create-customer.spec.ts",
           "canRun": true,
-          "badges": [],
+          "badges": [
+            {
+              "kind": "updated",
+              "text": "UPDATED · plan edited after last run"
+            }
+          ],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
@@ -2752,7 +2757,12 @@
           "spec": "test-plans/service-requests/create-service-request-v2.spec.ts",
           "specHref": "test-plans/service-requests/create-service-request-v2.spec.ts",
           "canRun": true,
-          "badges": [],
+          "badges": [
+            {
+              "kind": "updated",
+              "text": "UPDATED · plan edited after last run"
+            }
+          ],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
@@ -3010,5 +3020,5 @@
       ]
     }
   ],
-  "generated": "2026-09-03T04:39:29.130Z"
+  "generated": "2026-09-04T04:36:15.252Z"
 }

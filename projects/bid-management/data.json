@@ -2602,7 +2602,12 @@
           "spec": "test-plans/tender-process/bid-supply-chain-management.spec.ts",
           "specHref": "test-plans/tender-process/bid-supply-chain-management.spec.ts",
           "canRun": true,
-          "badges": [],
+          "badges": [
+            {
+              "kind": "updated",
+              "text": "UPDATED · spec edited after last run"
+            }
+          ],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
@@ -2973,5 +2978,5 @@
       ]
     }
   ],
-  "generated": "2026-09-03T04:39:29.084Z"
+  "generated": "2026-09-04T04:36:15.183Z"
 }

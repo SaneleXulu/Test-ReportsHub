@@ -1,12 +1,12 @@
 {
   "totalPlans": 24,
-  "totalRuns": 94,
-  "last7Runs": 57,
-  "last7Pass": 57,
+  "totalRuns": 113,
+  "last7Runs": 76,
+  "last7Pass": 76,
   "last7PassPct": 100,
   "failingFlows": 0,
   "lastRun": {
-    "date": "2026-09-05",
+    "date": "2026-09-06",
     "result": "PASSED",
     "plan": "test-plans/eLeave/acknowledge-leave-approved-without-pay.md"
   }

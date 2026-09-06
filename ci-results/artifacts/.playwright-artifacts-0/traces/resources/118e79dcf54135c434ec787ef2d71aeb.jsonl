@@ -1,3 +1,0 @@
-{"type":"send","time":1788582919984.686,"opcode":1,"data":"{\"protocol\":\"json\",\"version\":1}\u001e"}
-{"type":"receive","time":1788582920203.471,"opcode":1,"data":"{}\u001e"}
-{"type":"send","time":1788582920203.926,"opcode":1,"data":"{\"type\":6}\u001e"}

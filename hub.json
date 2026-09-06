@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T04:37:08.771Z",
+  "generated": "2026-09-06T04:34:11.572Z",
   "projects": [
     {
       "name": "Approvals",
@@ -11,13 +11,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 33,
-        "totalRuns": 138,
-        "last7Runs": 105,
+        "totalRuns": 173,
+        "last7Runs": 140,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 35,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "FAILED",
           "plan": "test-plans/Memo/_adhoc-craig-myitems-retract.md"
         }
@@ -80,13 +80,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 2,
-        "totalRuns": 26,
-        "last7Runs": 3,
+        "totalRuns": 27,
+        "last7Runs": 4,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "FAILED",
           "plan": "test-plans/invoice-process/bas.md"
         }
@@ -103,13 +103,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 46,
-        "totalRuns": 112,
-        "last7Runs": 60,
-        "last7Pass": 24,
+        "totalRuns": 132,
+        "last7Runs": 80,
+        "last7Pass": 32,
         "last7PassPct": 40,
         "failingFlows": 31,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "FAILED",
           "plan": "test-plans/auth/01-authentication-account-creation.md"
         }
@@ -126,13 +126,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 1,
-        "totalRuns": 8,
-        "last7Runs": 3,
+        "totalRuns": 9,
+        "last7Runs": 4,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "FAILED",
           "plan": "test-plans/tender-process/ecdedea-tender-process.md"
         }
@@ -195,13 +195,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 3,
-        "totalRuns": 3,
-        "last7Runs": 3,
+        "totalRuns": 4,
+        "last7Runs": 4,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "FAILED",
           "plan": "test-plans/BAS/register-and-upload-invoice.md"
         }
@@ -218,13 +218,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 2,
-        "totalRuns": 76,
-        "last7Runs": 6,
+        "totalRuns": 78,
+        "last7Runs": 8,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 2,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "FAILED",
           "plan": "test-plans/contracting/contracting-lifecycle.md"
         }
@@ -241,13 +241,13 @@
       "health": "healthy",
       "summary": {
         "totalPlans": 24,
-        "totalRuns": 94,
-        "last7Runs": 57,
-        "last7Pass": 57,
+        "totalRuns": 113,
+        "last7Runs": 76,
+        "last7Pass": 76,
         "last7PassPct": 100,
         "failingFlows": 0,
         "lastRun": {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "result": "PASSED",
           "plan": "test-plans/eLeave/acknowledge-leave-approved-without-pay.md"
         }
@@ -327,8 +327,8 @@
   "totals": {
     "totalProjects": 14,
     "totalPlans": 257,
-    "totalRuns": 710,
-    "last7Runs": 241,
+    "totalRuns": 789,
+    "last7Runs": 320,
     "failingFlows": 80
   }
 }

@@ -16,8 +16,8 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 3,
-    "totalRuns": 6,
-    "last7Runs": 6,
+    "totalRuns": 7,
+    "last7Runs": 7,
     "last7Pass": 0,
     "last7PassPct": 0,
     "failingFlows": 1,
@@ -2551,9 +2551,9 @@
       },
       {
         "iso": "2026-09-09",
-        "runs": 0,
+        "runs": 1,
         "passed": 0,
-        "failed": 0,
+        "failed": 1,
         "partial": 0
       },
       {
@@ -2595,14 +2595,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-08",
+            "date": "2026-09-09",
             "result": "FAILED",
-            "duration": "875.4s",
+            "duration": "932.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-08/register-and-upload-invoice.md"
+            "reportHref": "test-reports/2026-09-09/register-and-upload-invoice.md"
           },
-          "runCount": 6,
+          "runCount": 7,
           "history": [
+            {
+              "date": "2026-09-09",
+              "result": "FAILED",
+              "duration": "932.2s",
+              "variant": null
+            },
             {
               "date": "2026-09-08",
               "result": "FAILED",
@@ -2693,6 +2699,20 @@
   ],
   "timeline": [
     {
+      "date": "2026-09-09",
+      "runs": [
+        {
+          "plan": "test-plans/BAS/register-and-upload-invoice.md",
+          "planDisplay": "BAS/register-and-upload-invoice.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "932.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-09/register-and-upload-invoice.md"
+        }
+      ]
+    },
+    {
       "date": "2026-09-08",
       "runs": [
         {
@@ -2777,5 +2797,5 @@
       ]
     }
   ],
-  "generated": "2026-09-08T04:45:03.316Z"
+  "generated": "2026-09-09T04:44:36.421Z"
 }

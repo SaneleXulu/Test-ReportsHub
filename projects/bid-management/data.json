@@ -28,7 +28,7 @@
   "kpis": {
     "totalPlans": 1,
     "totalRuns": 27,
-    "last7Runs": 3,
+    "last7Runs": 2,
     "last7Pass": 0,
     "last7PassPct": 0,
     "failingFlows": 1,
@@ -3006,5 +3006,5 @@
       ]
     }
   ],
-  "generated": "2026-09-09T04:44:36.580Z"
+  "generated": "2026-09-10T04:46:46.347Z"
 }

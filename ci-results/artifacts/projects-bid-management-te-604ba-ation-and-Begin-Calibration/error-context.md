@@ -14,14 +14,14 @@
 ```
 Error: expect(locator).toBeVisible() failed
 
-Locator: getByRole('row').filter({ hasText: 'REF2026-1199' }).filter({ hasText: 'Monitor Evaluation Progress' }).first()
+Locator: getByRole('row').filter({ hasText: 'REF2026-0881' }).filter({ hasText: 'Monitor Evaluation Progress' }).first()
 Expected: visible
 Timeout: 30000ms
 Error: element(s) not found
 
 Call log:
-  - Expect "toBeVisible" getByRole('row').filter({ hasText: 'REF2026-1199' }).filter({ hasText: 'Monitor Evaluation Progress' }).first() with timeout 30000ms
-  - waiting for getByRole('row').filter({ hasText: 'REF2026-1199' }).filter({ hasText: 'Monitor Evaluation Progress' }).first()
+  - Expect "toBeVisible" getByRole('row').filter({ hasText: 'REF2026-0881' }).filter({ hasText: 'Monitor Evaluation Progress' }).first() with timeout 30000ms
+  - waiting for getByRole('row').filter({ hasText: 'REF2026-0881' }).filter({ hasText: 'Monitor Evaluation Progress' }).first()
 
 ```
 
@@ -231,7 +231,7 @@ Call log:
         - cell
         - cell "Evaluation In Progress"
         - cell "1 month(s) ago"
-      - row "search REF2026-1100 Maand-awe Mamathuntsha Tender Process Tender REF2026-1100 - testing supplier portal (expires withut submitting) Invite BEC members 31/07/2026 Evaluation In Progress 2 month(s) ago":
+      - row "search REF2026-1100 Maand-awe Mamathuntsha Tender Process Tender REF2026-1100 - testing supplier portal (expires withut submitting) Invite BEC members 31/07/2026 Evaluation In Progress 1 month(s) ago":
         - cell "search":
           - link "search":
             - /url: /shesha/workflow-action?id=e04f1ac4-3936-457c-8316-98e8d375e522&todoid=f6b42c81-cea7-41bf-9a78-5fe29a4b0707
@@ -244,8 +244,8 @@ Call log:
         - cell "31/07/2026"
         - cell
         - cell "Evaluation In Progress"
-        - cell "2 month(s) ago"
-      - 'row "search REF2026-0939 Maand-awe Mamathuntsha Tender Process Tender REF2026-0939 - TC-01 Automated Draft Tender run-ms61n9fs - 90/10 Compulsory Hybrid BEC: Monitor Evaluation Progress 29/07/2026 Evaluation In Progress 2 month(s) ago"':
+        - cell "1 month(s) ago"
+      - 'row "search REF2026-0939 Maand-awe Mamathuntsha Tender Process Tender REF2026-0939 - TC-01 Automated Draft Tender run-ms61n9fs - 90/10 Compulsory Hybrid BEC: Monitor Evaluation Progress 29/07/2026 Evaluation In Progress 1 month(s) ago"':
         - cell "search":
           - link "search":
             - /url: /shesha/workflow-action?id=78d57452-5e36-46bb-867f-d3702465f163&todoid=3fc50e9f-aae3-4f03-b5a1-a2e67a02f36f
@@ -258,8 +258,8 @@ Call log:
         - cell "29/07/2026"
         - cell
         - cell "Evaluation In Progress"
-        - cell "2 month(s) ago"
-      - row "search REF2026-0933 Maand-awe Mamathuntsha Tender Process Tender REF2026-0933 - TC-01 Automated Draft Tender run-ms60uytx - 90/10 Compulsory Hybrid Invite BEC members 29/07/2026 Evaluation In Progress 2 month(s) ago":
+        - cell "1 month(s) ago"
+      - row "search REF2026-0933 Maand-awe Mamathuntsha Tender Process Tender REF2026-0933 - TC-01 Automated Draft Tender run-ms60uytx - 90/10 Compulsory Hybrid Invite BEC members 29/07/2026 Evaluation In Progress 1 month(s) ago":
         - cell "search":
           - link "search":
             - /url: /shesha/workflow-action?id=2f285d0c-0405-494f-85e0-9addc1e2a4f8&todoid=bd189c4d-9904-4655-8993-31415bb1f292
@@ -272,7 +272,7 @@ Call log:
         - cell "29/07/2026"
         - cell
         - cell "Evaluation In Progress"
-        - cell "2 month(s) ago"
+        - cell "1 month(s) ago"
 - alert
 ```
 

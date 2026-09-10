@@ -18,7 +18,7 @@ Test timeout of 180000ms exceeded.
 ```
 Error: locator.click: Test timeout of 180000ms exceeded.
 Call log:
-  - waiting for locator('.ant-picker-dropdown:not(.ant-picker-dropdown-hidden)').last().locator('td[title="2026-09-12"]')
+  - waiting for locator('.ant-picker-dropdown:not(.ant-picker-dropdown-hidden)').last().locator('td[title="2026-09-13"]')
 
 ```
 
@@ -85,7 +85,7 @@ Call log:
                 - strong [ref=e133]: "Capture Tender Details:"
               - generic [ref=e134]: Draft
             - generic [ref=e138]:
-              - generic [ref=e139]: "Ref No: REF2026-1199"
+              - generic [ref=e139]: "Ref No: REF2026-0881"
               - generic [ref=e140]: "Created by: Maand-awe Mamathuntsha in 2 hours"
           - generic [ref=e145]:
             - generic [ref=e147]:
@@ -123,12 +123,12 @@ Call log:
                         - generic "Tender Number" [ref=e222]:
                           - text: Tender Number
                           - generic [ref=e223]: "*"
-                        - generic [ref=e224]: REF2026-1199
+                        - generic [ref=e224]: REF2026-0881
                       - generic [ref=e228]:
                         - generic "Tender Name" [ref=e230]:
                           - text: Tender Name
                           - generic [ref=e231]: "*"
-                        - textbox [ref=e236]: TC-01 Automated Draft Tender run-mttlp1cl - 90/10 Compulsory Hybrid
+                        - textbox [ref=e236]: TC-01 Automated Draft Tender run-mtv18m6t - 90/10 Compulsory Hybrid
                       - generic [ref=e238]:
                         - generic "Description" [ref=e240]:
                           - text: Description

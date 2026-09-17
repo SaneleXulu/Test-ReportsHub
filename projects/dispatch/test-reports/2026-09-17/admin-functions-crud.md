@@ -1,0 +1,11 @@
+# Report: admin-functions-crud
+
+**Date:** 2026-09-17T03:04Z
+**Plan:** test-plans/administrative-functions/admin-functions-crud.md
+**Spec:** projects/dispatch/test-plans/administrative-functions/admin-functions-crud.spec.ts
+**Execution Mode:** ci-nightly
+**Result:** FAILED
+**Duration:** 1000.6s
+**Run:** https://github.com/SaneleXulu/Test-ReportsHub/actions/runs/35176742259
+
+_Triggered by the nightly schedule._

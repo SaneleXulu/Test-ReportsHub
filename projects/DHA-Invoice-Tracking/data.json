@@ -27,7 +27,7 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 2,
-    "totalRuns": 43,
+    "totalRuns": 44,
     "last7Runs": 7,
     "last7Pass": 0,
     "last7PassPct": 0,
@@ -2562,9 +2562,9 @@
       },
       {
         "iso": "2026-09-23",
-        "runs": 0,
+        "runs": 1,
         "passed": 0,
-        "failed": 0,
+        "failed": 1,
         "partial": 0
       },
       {
@@ -2606,14 +2606,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-09-22",
+            "date": "2026-09-23",
             "result": "FAILED",
-            "duration": "87.3s",
+            "duration": "59.4s",
             "variant": null,
-            "reportHref": "test-reports/2026-09-22/bas.md"
+            "reportHref": "test-reports/2026-09-23/bas.md"
           },
-          "runCount": 30,
+          "runCount": 31,
           "history": [
+            {
+              "date": "2026-09-23",
+              "result": "FAILED",
+              "duration": "59.4s",
+              "variant": null
+            },
             {
               "date": "2026-09-22",
               "result": "FAILED",
@@ -2678,12 +2684,6 @@
               "date": "2026-09-12",
               "result": "FAILED",
               "duration": "57.6s",
-              "variant": null
-            },
-            {
-              "date": "2026-09-11",
-              "result": "FAILED",
-              "duration": "64.6s",
               "variant": null
             }
           ],
@@ -2787,6 +2787,20 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-09-23",
+      "runs": [
+        {
+          "plan": "test-plans/invoice-process/bas.md",
+          "planDisplay": "invoice-process/bas.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "59.4s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-09-23/bas.md"
+        }
+      ]
+    },
     {
       "date": "2026-09-22",
       "runs": [
@@ -3295,5 +3309,5 @@
       ]
     }
   ],
-  "generated": "2026-09-22T04:59:20.265Z"
+  "generated": "2026-09-23T04:59:30.865Z"
 }

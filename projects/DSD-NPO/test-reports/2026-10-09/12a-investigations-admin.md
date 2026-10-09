@@ -1,0 +1,11 @@
+# Report: 12a-investigations-admin
+
+**Date:** 2026-10-09T04:15Z
+**Plan:** test-plans/investigations/12a-investigations-admin.md
+**Spec:** projects/DSD-NPO/test-plans/investigations/12a-investigations-admin.spec.ts
+**Execution Mode:** ci-nightly
+**Result:** FAILED
+**Duration:** 119s
+**Run:** https://github.com/SaneleXulu/Test-ReportsHub/actions/runs/37882967713
+
+_Triggered by the nightly schedule._

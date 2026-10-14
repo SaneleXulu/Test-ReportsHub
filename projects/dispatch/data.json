@@ -22,7 +22,7 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 15,
-    "totalRuns": 84,
+    "totalRuns": 85,
     "last7Runs": 10,
     "last7Pass": 0,
     "last7PassPct": 0,
@@ -2557,9 +2557,9 @@
       },
       {
         "iso": "2026-10-14",
-        "runs": 0,
+        "runs": 1,
         "passed": 0,
-        "failed": 0,
+        "failed": 1,
         "partial": 0
       },
       {
@@ -2601,14 +2601,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-10-13",
+            "date": "2026-10-14",
             "result": "FAILED",
-            "duration": "975.6s",
+            "duration": "955.2s",
             "variant": null,
-            "reportHref": "test-reports/2026-10-13/admin-functions-crud.md"
+            "reportHref": "test-reports/2026-10-14/admin-functions-crud.md"
           },
-          "runCount": 31,
+          "runCount": 32,
           "history": [
+            {
+              "date": "2026-10-14",
+              "result": "FAILED",
+              "duration": "955.2s",
+              "variant": null
+            },
             {
               "date": "2026-10-13",
               "result": "FAILED",
@@ -2673,12 +2679,6 @@
               "date": "2026-10-02",
               "result": "FAILED",
               "duration": "972.7s",
-              "variant": null
-            },
-            {
-              "date": "2026-10-01",
-              "result": "FAILED",
-              "duration": "979.8s",
               "variant": null
             }
           ],
@@ -3302,6 +3302,20 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-10-14",
+      "runs": [
+        {
+          "plan": "test-plans/administrative-functions/admin-functions-crud.md",
+          "planDisplay": "administrative-functions/admin-functions-crud.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "955.2s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-10-14/admin-functions-crud.md"
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "runs": [
@@ -4224,5 +4238,5 @@
       ]
     }
   ],
-  "generated": "2026-10-13T07:08:48.269Z"
+  "generated": "2026-10-14T05:15:30.413Z"
 }

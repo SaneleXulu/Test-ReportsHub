@@ -16,7 +16,7 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 3,
-    "totalRuns": 42,
+    "totalRuns": 43,
     "last7Runs": 7,
     "last7Pass": 0,
     "last7PassPct": 0,
@@ -2558,9 +2558,9 @@
       },
       {
         "iso": "2026-10-15",
-        "runs": 0,
+        "runs": 1,
         "passed": 0,
-        "failed": 0,
+        "failed": 1,
         "partial": 0
       },
       {
@@ -2595,14 +2595,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-10-14",
+            "date": "2026-10-15",
             "result": "FAILED",
-            "duration": "808.7s",
+            "duration": "692.5s",
             "variant": null,
-            "reportHref": "test-reports/2026-10-14/register-and-upload-invoice.md"
+            "reportHref": "test-reports/2026-10-15/register-and-upload-invoice.md"
           },
-          "runCount": 42,
+          "runCount": 43,
           "history": [
+            {
+              "date": "2026-10-15",
+              "result": "FAILED",
+              "duration": "692.5s",
+              "variant": null
+            },
             {
               "date": "2026-10-14",
               "result": "FAILED",
@@ -2668,12 +2674,6 @@
               "result": "FAILED",
               "duration": "646.4s",
               "variant": null
-            },
-            {
-              "date": "2026-10-03",
-              "result": "FAILED",
-              "duration": "834.5s",
-              "variant": null
             }
           ],
           "bugs": []
@@ -2728,6 +2728,20 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-10-15",
+      "runs": [
+        {
+          "plan": "test-plans/BAS/register-and-upload-invoice.md",
+          "planDisplay": "BAS/register-and-upload-invoice.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "692.5s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-10-15/register-and-upload-invoice.md"
+        }
+      ]
+    },
     {
       "date": "2026-10-14",
       "runs": [
@@ -3317,5 +3331,5 @@
       ]
     }
   ],
-  "generated": "2026-10-14T05:15:30.222Z"
+  "generated": "2026-10-15T04:53:43.647Z"
 }

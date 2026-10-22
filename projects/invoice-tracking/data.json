@@ -2600,7 +2600,7 @@
           "badges": [
             {
               "kind": "updated",
-              "text": "UPDATED · spec edited after last run"
+              "text": "UPDATED · plan edited after last run"
             }
           ],
           "rowStatus": "passing",
@@ -2866,5 +2866,5 @@
       ]
     }
   ],
-  "generated": "2026-10-21T05:01:37.576Z"
+  "generated": "2026-10-22T05:00:33.076Z"
 }

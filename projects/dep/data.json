@@ -22,7 +22,7 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 6,
-    "totalRuns": 87,
+    "totalRuns": 89,
     "last7Runs": 8,
     "last7Pass": 0,
     "last7PassPct": 0,
@@ -2550,9 +2550,9 @@
       },
       {
         "iso": "2026-10-27",
-        "runs": 0,
+        "runs": 2,
         "passed": 0,
-        "failed": 0,
+        "failed": 2,
         "partial": 0
       },
       {
@@ -2706,23 +2706,24 @@
           "spec": "test-plans/customers/create-customer.spec.ts",
           "specHref": "test-plans/customers/create-customer.spec.ts",
           "canRun": true,
-          "badges": [
-            {
-              "kind": "updated",
-              "text": "UPDATED · plan edited after last run"
-            }
-          ],
+          "badges": [],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-10-23",
+            "date": "2026-10-27",
             "result": "FAILED",
-            "duration": "145.3s",
+            "duration": "125.6s",
             "variant": null,
-            "reportHref": "test-reports/2026-10-23/create-customer.md"
+            "reportHref": "test-reports/2026-10-27/create-customer.md"
           },
-          "runCount": 40,
+          "runCount": 41,
           "history": [
+            {
+              "date": "2026-10-27",
+              "result": "FAILED",
+              "duration": "125.6s",
+              "variant": null
+            },
             {
               "date": "2026-10-23",
               "result": "FAILED",
@@ -2788,12 +2789,6 @@
               "result": "FAILED",
               "duration": "130.9s",
               "variant": null
-            },
-            {
-              "date": "2026-10-11",
-              "result": "FAILED",
-              "duration": "124.1s",
-              "variant": null
             }
           ],
           "bugs": []
@@ -2811,23 +2806,24 @@
           "spec": "test-plans/service-requests/create-service-request-v2.spec.ts",
           "specHref": "test-plans/service-requests/create-service-request-v2.spec.ts",
           "canRun": true,
-          "badges": [
-            {
-              "kind": "updated",
-              "text": "UPDATED · plan edited after last run"
-            }
-          ],
+          "badges": [],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-10-23",
+            "date": "2026-10-27",
             "result": "FAILED",
-            "duration": "3.2s",
+            "duration": "2.9s",
             "variant": null,
-            "reportHref": "test-reports/2026-10-23/create-service-request-v2.md"
+            "reportHref": "test-reports/2026-10-27/create-service-request-v2.md"
           },
-          "runCount": 45,
+          "runCount": 46,
           "history": [
+            {
+              "date": "2026-10-27",
+              "result": "FAILED",
+              "duration": "2.9s",
+              "variant": null
+            },
             {
               "date": "2026-10-23",
               "result": "FAILED",
@@ -2893,12 +2889,6 @@
               "result": "FAILED",
               "duration": "3.1s",
               "variant": null
-            },
-            {
-              "date": "2026-10-11",
-              "result": "FAILED",
-              "duration": "2.8s",
-              "variant": null
             }
           ],
           "bugs": []
@@ -2930,6 +2920,29 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-10-27",
+      "runs": [
+        {
+          "plan": "test-plans/customers/create-customer.md",
+          "planDisplay": "customers/create-customer.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "125.6s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-10-27/create-customer.md"
+        },
+        {
+          "plan": "test-plans/service-requests/create-service-request-v2.md",
+          "planDisplay": "service-requests/create-service-request-v2.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "2.9s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-10-27/create-service-request-v2.md"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "runs": [
@@ -3949,5 +3962,5 @@
       ]
     }
   ],
-  "generated": "2026-10-26T04:52:54.362Z"
+  "generated": "2026-10-27T05:26:03.508Z"
 }

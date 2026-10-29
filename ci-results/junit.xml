@@ -1,0 +1,554 @@
+<testsuites id="" name="" tests="11" failures="0" skipped="0" errors="11" time="432.87422499999997">
+<testsuite name="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" timestamp="2026-10-29T05:55:01.254Z" hostname="" tests="11" failures="0" skipped="0" time="424.766" errors="11">
+<testcase name="ADMIN-2.14 — Agents › TC-01: Log in to NC Dispatch" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="39.116">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:66:7 › ADMIN-2.14 — Agents › TC-01: Log in to NC Dispatch 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:67:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-d276b-TC-01-Log-in-to-NC-Dispatch/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-02: Search for an agent" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.59">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:72:7 › ADMIN-2.14 — Agents › TC-02: Search for an agent 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:74:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-aaae4-s-TC-02-Search-for-an-agent/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-03: Open Add Agent dialog" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.952">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:82:7 › ADMIN-2.14 — Agents › TC-03: Open Add Agent dialog 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:84:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-744f6-TC-03-Open-Add-Agent-dialog/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-04: Export agents" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.627">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:92:7 › ADMIN-2.14 — Agents › TC-04: Export agents 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:94:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-3d759--Agents-TC-04-Export-agents/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-05: View agent details" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.408">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:104:7 › ADMIN-2.14 — Agents › TC-05: View agent details 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:106:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-57f02-ts-TC-05-View-agent-details/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-06: Edit agent from details view" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.446">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:114:7 › ADMIN-2.14 — Agents › TC-06: Edit agent from details view 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:116:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-ac228-dit-agent-from-details-view/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-07: Cancel edit in details view" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.672">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:125:7 › ADMIN-2.14 — Agents › TC-07: Cancel edit in details view 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:127:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-bc3f2-Cancel-edit-in-details-view/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-08: Save edit in details view" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.348">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:138:7 › ADMIN-2.14 — Agents › TC-08: Save edit in details view 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:140:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-c88c8-8-Save-edit-in-details-view/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-09: Edit agent from index" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.385">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:157:7 › ADMIN-2.14 — Agents › TC-09: Edit agent from index 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:159:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-17ffb-TC-09-Edit-agent-from-index/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-10: Save edit from index edit view" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.595">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:168:7 › ADMIN-2.14 — Agents › TC-10: Save edit from index edit view 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:170:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-87062-e-edit-from-index-edit-view/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+<testcase name="ADMIN-2.14 — Agents › TC-11: Cancel edit from index edit view" classname="projects/dispatch/test-plans/administrative-functions/agents.spec.ts" time="38.627">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/test-failed-1.png]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/video.webm]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/error-context.md]]
+
+[[ATTACHMENT|artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/trace.zip]]
+]]>
+</system-out>
+<error message="page.waitForURL: Timeout 30000ms exceeded." type="TimeoutError">
+<![CDATA[  projects/dispatch/test-plans/administrative-functions/agents.spec.ts:184:7 › ADMIN-2.14 — Agents › TC-11: Cancel edit from index edit view 
+
+    TimeoutError: page.waitForURL: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for navigation until "load"
+    ============================================================
+
+      30 |   await page.getByPlaceholder('Password').fill(ADMIN.password);
+      31 |   await page.getByRole('button', { name: 'Sign In' }).click();
+    > 32 |   await page.waitForURL((url) => !url.href.includes('/login'), { timeout: 30000 });
+         |              ^
+      33 | }
+      34 |
+      35 | async function gotoGrid(page: Page) {
+        at login (/home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:32:14)
+        at /home/runner/work/Test-ReportsHub/Test-ReportsHub/projects/dispatch/test-plans/administrative-functions/agents.spec.ts:186:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ci-results/artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ci-results/artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/trace.zip
+    Usage:
+
+        npx playwright show-trace ci-results/artifacts/projects-dispatch-test-pla-4fea2-l-edit-from-index-edit-view/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</error>
+</testcase>
+</testsuite>
+</testsuites>

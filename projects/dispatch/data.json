@@ -23,7 +23,7 @@
   "kpis": {
     "totalPlans": 15,
     "totalRuns": 96,
-    "last7Runs": 4,
+    "last7Runs": 3,
     "last7Pass": 0,
     "last7PassPct": 0,
     "failingFlows": 3,
@@ -2597,7 +2597,12 @@
           "spec": "test-plans/administrative-functions/admin-functions-crud.spec.ts",
           "specHref": "test-plans/administrative-functions/admin-functions-crud.spec.ts",
           "canRun": true,
-          "badges": [],
+          "badges": [
+            {
+              "kind": "updated",
+              "text": "UPDATED · plan edited after last run"
+            }
+          ],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
@@ -3240,7 +3245,7 @@
           "badges": [
             {
               "kind": "updated",
-              "text": "UPDATED · plan edited after last run"
+              "text": "UPDATED · spec edited after last run"
             }
           ],
           "rowStatus": "passing",
@@ -4382,5 +4387,5 @@
       ]
     }
   ],
-  "generated": "2026-10-29T06:02:14.533Z"
+  "generated": "2026-10-30T06:03:54.495Z"
 }

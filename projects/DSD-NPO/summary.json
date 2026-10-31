@@ -1,12 +1,12 @@
 {
   "totalPlans": 46,
-  "totalRuns": 1192,
+  "totalRuns": 1212,
   "last7Runs": 140,
   "last7Pass": 56,
   "last7PassPct": 40,
   "failingFlows": 31,
   "lastRun": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "result": "FAILED",
     "plan": "test-plans/auth/01-authentication-account-creation.md"
   }

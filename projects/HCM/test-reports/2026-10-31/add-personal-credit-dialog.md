@@ -1,0 +1,11 @@
+# Report: add-personal-credit-dialog
+
+**Date:** 2026-10-31T03:48Z
+**Plan:** test-plans/eLeave/add-personal-credit-dialog.md
+**Spec:** projects/HCM/test-plans/eLeave/add-personal-credit-dialog.spec.ts
+**Execution Mode:** ci-nightly
+**Result:** PASSED
+**Duration:** 10.3s
+**Run:** https://github.com/SaneleXulu/Test-ReportsHub/actions/runs/41165901543
+
+_Triggered by the nightly schedule._

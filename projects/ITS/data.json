@@ -16,8 +16,8 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 3,
-    "totalRuns": 58,
-    "last7Runs": 7,
+    "totalRuns": 59,
+    "last7Runs": 6,
     "last7Pass": 0,
     "last7PassPct": 0,
     "failingFlows": 1,
@@ -27,57 +27,8 @@
   },
   "heatmap": {
     "weeks": 52,
-    "startDate": "2025-11-02",
+    "startDate": "2025-11-09",
     "days": [
-      {
-        "iso": "2025-11-02",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
-      {
-        "iso": "2025-11-03",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
-      {
-        "iso": "2025-11-04",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
-      {
-        "iso": "2025-11-05",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
-      {
-        "iso": "2025-11-06",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
-      {
-        "iso": "2025-11-07",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
-      {
-        "iso": "2025-11-08",
-        "runs": 0,
-        "passed": 0,
-        "failed": 0,
-        "partial": 0
-      },
       {
         "iso": "2025-11-09",
         "runs": 0,
@@ -2576,6 +2527,55 @@
         "passed": 0,
         "failed": 1,
         "partial": 0
+      },
+      {
+        "iso": "2026-11-01",
+        "runs": 0,
+        "passed": 0,
+        "failed": 0,
+        "partial": 0
+      },
+      {
+        "iso": "2026-11-02",
+        "runs": 1,
+        "passed": 0,
+        "failed": 1,
+        "partial": 0
+      },
+      {
+        "iso": "2026-11-03",
+        "runs": 0,
+        "passed": 0,
+        "failed": 0,
+        "partial": 0
+      },
+      {
+        "iso": "2026-11-04",
+        "runs": 0,
+        "passed": 0,
+        "failed": 0,
+        "partial": 0
+      },
+      {
+        "iso": "2026-11-05",
+        "runs": 0,
+        "passed": 0,
+        "failed": 0,
+        "partial": 0
+      },
+      {
+        "iso": "2026-11-06",
+        "runs": 0,
+        "passed": 0,
+        "failed": 0,
+        "partial": 0
+      },
+      {
+        "iso": "2026-11-07",
+        "runs": 0,
+        "passed": 0,
+        "failed": 0,
+        "partial": 0
       }
     ]
   },
@@ -2595,14 +2595,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-10-31",
+            "date": "2026-11-02",
             "result": "FAILED",
-            "duration": "883.8s",
+            "duration": "684.8s",
             "variant": null,
-            "reportHref": "test-reports/2026-10-31/register-and-upload-invoice.md"
+            "reportHref": "test-reports/2026-11-02/register-and-upload-invoice.md"
           },
-          "runCount": 58,
+          "runCount": 59,
           "history": [
+            {
+              "date": "2026-11-02",
+              "result": "FAILED",
+              "duration": "684.8s",
+              "variant": null
+            },
             {
               "date": "2026-10-31",
               "result": "FAILED",
@@ -2668,12 +2674,6 @@
               "result": "FAILED",
               "duration": "695.5s",
               "variant": null
-            },
-            {
-              "date": "2026-10-20",
-              "result": "FAILED",
-              "duration": "992.1s",
-              "variant": null
             }
           ],
           "bugs": []
@@ -2728,6 +2728,20 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-11-02",
+      "runs": [
+        {
+          "plan": "test-plans/BAS/register-and-upload-invoice.md",
+          "planDisplay": "BAS/register-and-upload-invoice.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "684.8s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-11-02/register-and-upload-invoice.md"
+        }
+      ]
+    },
     {
       "date": "2026-10-31",
       "runs": [
@@ -3541,5 +3555,5 @@
       ]
     }
   ],
-  "generated": "2026-10-31T05:48:15.145Z"
+  "generated": "2026-11-02T06:00:26.615Z"
 }

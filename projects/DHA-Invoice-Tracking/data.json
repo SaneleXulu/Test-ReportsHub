@@ -27,7 +27,7 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 2,
-    "totalRuns": 84,
+    "totalRuns": 85,
     "last7Runs": 6,
     "last7Pass": 0,
     "last7PassPct": 0,
@@ -2569,9 +2569,9 @@
       },
       {
         "iso": "2026-11-05",
-        "runs": 0,
+        "runs": 1,
         "passed": 0,
-        "failed": 0,
+        "failed": 1,
         "partial": 0
       },
       {
@@ -2606,14 +2606,20 @@
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-11-04",
+            "date": "2026-11-05",
             "result": "FAILED",
-            "duration": "44.7s",
+            "duration": "47.4s",
             "variant": null,
-            "reportHref": "test-reports/2026-11-04/bas.md"
+            "reportHref": "test-reports/2026-11-05/bas.md"
           },
-          "runCount": 71,
+          "runCount": 72,
           "history": [
+            {
+              "date": "2026-11-05",
+              "result": "FAILED",
+              "duration": "47.4s",
+              "variant": null
+            },
             {
               "date": "2026-11-04",
               "result": "FAILED",
@@ -2678,12 +2684,6 @@
               "date": "2026-10-24",
               "result": "FAILED",
               "duration": "48.4s",
-              "variant": null
-            },
-            {
-              "date": "2026-10-23",
-              "result": "FAILED",
-              "duration": "104.5s",
               "variant": null
             }
           ],
@@ -2787,6 +2787,20 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-11-05",
+      "runs": [
+        {
+          "plan": "test-plans/invoice-process/bas.md",
+          "planDisplay": "invoice-process/bas.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "47.4s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-11-05/bas.md"
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "runs": [
@@ -3869,5 +3883,5 @@
       ]
     }
   ],
-  "generated": "2026-11-04T06:34:19.582Z"
+  "generated": "2026-11-05T06:49:48.985Z"
 }

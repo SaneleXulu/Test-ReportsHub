@@ -23,7 +23,7 @@
   "kpis": {
     "totalPlans": 6,
     "totalRuns": 113,
-    "last7Runs": 14,
+    "last7Runs": 12,
     "last7Pass": 0,
     "last7PassPct": 0,
     "failingFlows": 3,
@@ -2706,7 +2706,12 @@
           "spec": "test-plans/customers/create-customer.spec.ts",
           "specHref": "test-plans/customers/create-customer.spec.ts",
           "canRun": true,
-          "badges": [],
+          "badges": [
+            {
+              "kind": "updated",
+              "text": "UPDATED · plan edited after last run"
+            }
+          ],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
@@ -2806,7 +2811,12 @@
           "spec": "test-plans/service-requests/create-service-request-v2.spec.ts",
           "specHref": "test-plans/service-requests/create-service-request-v2.spec.ts",
           "canRun": true,
-          "badges": [],
+          "badges": [
+            {
+              "kind": "updated",
+              "text": "UPDATED · plan edited after last run"
+            }
+          ],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
@@ -4238,5 +4248,5 @@
       ]
     }
   ],
-  "generated": "2026-11-10T07:43:44.955Z"
+  "generated": "2026-11-11T06:21:42.790Z"
 }

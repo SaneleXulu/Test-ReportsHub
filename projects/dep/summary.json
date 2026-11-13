@@ -1,12 +1,12 @@
 {
   "totalPlans": 6,
-  "totalRuns": 115,
+  "totalRuns": 117,
   "last7Runs": 12,
   "last7Pass": 0,
   "last7PassPct": 0,
   "failingFlows": 3,
   "lastRun": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "result": "FAILED",
     "plan": "test-plans/customers/create-customer.md"
   }

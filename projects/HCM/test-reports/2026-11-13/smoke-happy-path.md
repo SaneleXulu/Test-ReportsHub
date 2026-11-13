@@ -1,0 +1,11 @@
+# Report: smoke-happy-path
+
+**Date:** 2026-11-13T04:46Z
+**Plan:** test-plans/performance-agreements/smoke-happy-path.md
+**Spec:** projects/HCM/test-plans/performance-agreements/smoke-happy-path.spec.ts
+**Execution Mode:** ci-nightly
+**Result:** PASSED
+**Duration:** 152.1s
+**Run:** https://github.com/SaneleXulu/Test-ReportsHub/actions/runs/43367585657
+
+_Triggered by the nightly schedule._

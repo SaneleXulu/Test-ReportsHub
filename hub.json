@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T07:20:00.348Z",
+  "generated": "2026-11-22T06:45:19.719Z",
   "projects": [
     {
       "name": "Approvals",
@@ -11,13 +11,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 33,
-        "totalRuns": 2728,
+        "totalRuns": 2763,
         "last7Runs": 245,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 35,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/Memo/_adhoc-craig-myitems-retract.md"
         }
@@ -34,13 +34,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 1,
-        "totalRuns": 86,
+        "totalRuns": 87,
         "last7Runs": 7,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/tender-process/bid-supply-chain-management.md"
         }
@@ -57,13 +57,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 6,
-        "totalRuns": 131,
+        "totalRuns": 133,
         "last7Runs": 14,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 3,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/customers/create-customer.md"
         }
@@ -80,13 +80,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 2,
-        "totalRuns": 100,
+        "totalRuns": 101,
         "last7Runs": 7,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/invoice-process/bas.md"
         }
@@ -103,13 +103,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 46,
-        "totalRuns": 1592,
+        "totalRuns": 1612,
         "last7Runs": 140,
         "last7Pass": 56,
         "last7PassPct": 40,
         "failingFlows": 31,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/auth/01-authentication-account-creation.md"
         }
@@ -126,13 +126,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 1,
-        "totalRuns": 82,
+        "totalRuns": 83,
         "last7Runs": 7,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/tender-process/ecdedea-tender-process.md"
         }
@@ -161,6 +161,29 @@
         }
       },
       "href": "projects/eRecruitment/index.html"
+    },
+    {
+      "name": "HCM",
+      "displayName": "HCM Admin Portal",
+      "appUrl": "https://pd-hcm-adminportal-qa.shesha.app/",
+      "environment": "QA",
+      "sourceRepo": "https://dev.azure.com/boxfusion/pd-Hcm",
+      "description": "Hybrid Markdown + Playwright test reports for the HCM Admin Portal.",
+      "health": "failing",
+      "summary": {
+        "totalPlans": 24,
+        "totalRuns": 1519,
+        "last7Runs": 133,
+        "last7Pass": 130,
+        "last7PassPct": 98,
+        "failingFlows": 1,
+        "lastRun": {
+          "date": "2026-11-22",
+          "result": "PASSED",
+          "plan": "test-plans/eLeave/acknowledge-leave-approved-without-pay.md"
+        }
+      },
+      "href": "projects/HCM/index.html"
     },
     {
       "name": "invoice-tracking",
@@ -195,13 +218,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 3,
-        "totalRuns": 77,
+        "totalRuns": 78,
         "last7Runs": 7,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 1,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/BAS/register-and-upload-invoice.md"
         }
@@ -218,13 +241,13 @@
       "health": "failing",
       "summary": {
         "totalPlans": 15,
-        "totalRuns": 113,
-        "last7Runs": 7,
+        "totalRuns": 115,
+        "last7Runs": 8,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 3,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/administrative-functions/admin-functions-crud.md"
         }
@@ -241,41 +264,18 @@
       "health": "failing",
       "summary": {
         "totalPlans": 2,
-        "totalRuns": 222,
+        "totalRuns": 224,
         "last7Runs": 14,
         "last7Pass": 0,
         "last7PassPct": 0,
         "failingFlows": 2,
         "lastRun": {
-          "date": "2026-11-21",
+          "date": "2026-11-22",
           "result": "FAILED",
           "plan": "test-plans/contracting/contracting-lifecycle.md"
         }
       },
       "href": "projects/PD-PMDS/index.html"
-    },
-    {
-      "name": "HCM",
-      "displayName": "HCM Admin Portal",
-      "appUrl": "https://pd-hcm-adminportal-qa.shesha.app/",
-      "environment": "QA",
-      "sourceRepo": "https://dev.azure.com/boxfusion/pd-Hcm",
-      "description": "Hybrid Markdown + Playwright test reports for the HCM Admin Portal.",
-      "health": "healthy",
-      "summary": {
-        "totalPlans": 24,
-        "totalRuns": 1500,
-        "last7Runs": 133,
-        "last7Pass": 131,
-        "last7PassPct": 98,
-        "failingFlows": 0,
-        "lastRun": {
-          "date": "2026-11-21",
-          "result": "PASSED",
-          "plan": "test-plans/eLeave/acknowledge-leave-approved-without-pay.md"
-        }
-      },
-      "href": "projects/HCM/index.html"
     },
     {
       "name": "land-bank",
@@ -327,8 +327,8 @@
   "totals": {
     "totalProjects": 14,
     "totalPlans": 257,
-    "totalRuns": 6798,
-    "last7Runs": 581,
-    "failingFlows": 83
+    "totalRuns": 6882,
+    "last7Runs": 582,
+    "failingFlows": 84
   }
 }

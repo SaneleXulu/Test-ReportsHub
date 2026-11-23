@@ -1,0 +1,142 @@
+{
+  "result": {
+    "totalCount": 146,
+    "items": [
+      {
+        "id": "7f376797-9587-489c-8b30-f70769eeb966",
+        "refNumber": " REF2026-0972",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-0972 - TC-01 Automated Draft Tender run-mwob7nec - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-11-20T03:43:30.697",
+        "overdueDate": null,
+        "workflowInstanceId": "81456d72-27e3-4802-b863-8d3f5959867f",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "3 day(s) ago"
+      },
+      {
+        "id": "71f42d27-6a58-4832-a331-f45639f81609",
+        "refNumber": " REF2026-0959",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-0959 - REPRODUCING SECURITY",
+        "actionText": "BEC: Finalise recommendation",
+        "receivedOn": "2026-11-18T10:51:50.837",
+        "overdueDate": null,
+        "workflowInstanceId": "e6af7b7e-538d-4793-b610-3518188d4ceb",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "4 day(s) ago"
+      },
+      {
+        "id": "7988d27b-62e1-42c4-ba68-cb31d68abc1c",
+        "refNumber": " REF2026-0946",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-0946 - TC-01 Automated Draft Tender run-mwk144ie - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-11-17T03:49:34.9",
+        "overdueDate": null,
+        "workflowInstanceId": "8f1cd4c2-7b50-4832-b464-68592d913c85",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "6 day(s) ago"
+      },
+      {
+        "id": "92ecee77-85f1-48f9-8e48-0beb393fec23",
+        "refNumber": " REF2026-0914",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-0914 - TC-01 Automated Draft Tender run-mwebdutm - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-11-13T03:50:14.737",
+        "overdueDate": null,
+        "workflowInstanceId": "c6299475-4c9f-4281-bfe1-e2ae61f979eb",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "10 day(s) ago"
+      },
+      {
+        "id": "5372cf25-59a0-4b7b-9958-0d540f797fcc",
+        "refNumber": " REF2026-0805",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-0805 - TC-01 Automated Draft Tender run-mvyljawj - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-11-02T03:50:10.76",
+        "overdueDate": null,
+        "workflowInstanceId": "47f40e7c-d2f2-401d-8436-8e05db7e4eec",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "21 day(s) ago"
+      },
+      {
+        "id": "671954a0-2696-4a90-97fa-2b50e89f1adf",
+        "refNumber": " REF2026-1986",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-1986 - TC-01 Automated Draft Tender run-mvomywvk - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-10-26T04:33:20.04",
+        "overdueDate": null,
+        "workflowInstanceId": "15213ec2-5309-4bfb-83ca-d4365f8e1283",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "28 day(s) ago"
+      },
+      {
+        "id": "81aa5965-1086-4d3f-9ddf-3b8075aac509",
+        "refNumber": " REF2026-1695",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-1695 - TC-01 Automated Draft Tender run-mv6av5y1 - 90/10 Compulsory Hybrid",
+        "actionText": "BEC: Monitor Evaluation Progress",
+        "receivedOn": "2026-10-22T12:11:13.633",
+        "overdueDate": null,
+        "workflowInstanceId": "7d579449-5974-40e5-9e26-6e91b6001941",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "1 month(s) ago"
+      },
+      {
+        "id": "a23196e1-f6ee-4c0e-b0d8-7d3765985c72",
+        "refNumber": " REF2026-1283",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-1283 - TC-01 Automated Draft Tender run-mv0bl1se - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-10-09T04:07:17.27",
+        "overdueDate": null,
+        "workflowInstanceId": "dd42c260-3778-427c-901c-13744c858428",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "1 month(s) ago"
+      },
+      {
+        "id": "b0fea5ed-e77f-4e24-9630-267a8232adfc",
+        "refNumber": " REF2026-1054",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-1054 - TC-01 Automated Draft Tender run-muw9i1xu - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-10-06T07:58:12.497",
+        "overdueDate": null,
+        "workflowInstanceId": "0fe2020b-5bfa-4ca7-bb04-6242be0053bd",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "1 month(s) ago"
+      },
+      {
+        "id": "2f083945-7282-403e-9894-4ad5dbe88c17",
+        "refNumber": " REF2026-1029",
+        "initiator": "Maand-awe Mamathuntsha",
+        "processName": "Tender Process",
+        "subject": "Tender  REF2026-1029 - TC-01 Automated Draft Tender run-murqwjzg - 90/10 Compulsory Hybrid",
+        "actionText": "Invite BEC members",
+        "receivedOn": "2026-10-03T04:07:00.61",
+        "overdueDate": null,
+        "workflowInstanceId": "8a825ea2-e32d-47fc-84e2-20e896f51dd5",
+        "statusFinalText": "Evaluation In Progress",
+        "periodInPossession": "1 month(s) ago"
+      }
+    ]
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unAuthorizedRequest": false,
+  "__abp": true
+}

@@ -22,7 +22,7 @@
   "workflowUrl": "https://github.com/Boxfusion/Test-ReportsHub/actions/workflows/run-test.yml",
   "kpis": {
     "totalPlans": 15,
-    "totalRuns": 115,
+    "totalRuns": 116,
     "last7Runs": 7,
     "last7Pass": 0,
     "last7PassPct": 0,
@@ -2557,9 +2557,9 @@
       },
       {
         "iso": "2026-11-25",
-        "runs": 0,
+        "runs": 1,
         "passed": 0,
-        "failed": 0,
+        "failed": 1,
         "partial": 0
       },
       {
@@ -2597,23 +2597,24 @@
           "spec": "test-plans/administrative-functions/admin-functions-crud.spec.ts",
           "specHref": "test-plans/administrative-functions/admin-functions-crud.spec.ts",
           "canRun": true,
-          "badges": [
-            {
-              "kind": "updated",
-              "text": "UPDATED · plan edited after last run"
-            }
-          ],
+          "badges": [],
           "rowStatus": "failing",
           "status": "FAILED",
           "last": {
-            "date": "2026-11-22",
+            "date": "2026-11-25",
             "result": "FAILED",
-            "duration": "896.8s",
+            "duration": "907s",
             "variant": null,
-            "reportHref": "test-reports/2026-11-22/admin-functions-crud.md"
+            "reportHref": "test-reports/2026-11-25/admin-functions-crud.md"
           },
-          "runCount": 57,
+          "runCount": 58,
           "history": [
+            {
+              "date": "2026-11-25",
+              "result": "FAILED",
+              "duration": "907s",
+              "variant": null
+            },
             {
               "date": "2026-11-22",
               "result": "FAILED",
@@ -2678,12 +2679,6 @@
               "date": "2026-11-06",
               "result": "FAILED",
               "duration": "915.7s",
-              "variant": null
-            },
-            {
-              "date": "2026-11-05",
-              "result": "FAILED",
-              "duration": "917.4s",
               "variant": null
             }
           ],
@@ -3245,7 +3240,7 @@
           "badges": [
             {
               "kind": "updated",
-              "text": "UPDATED · spec edited after last run"
+              "text": "UPDATED · plan edited after last run"
             }
           ],
           "rowStatus": "passing",
@@ -3307,6 +3302,20 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2026-11-25",
+      "runs": [
+        {
+          "plan": "test-plans/administrative-functions/admin-functions-crud.md",
+          "planDisplay": "administrative-functions/admin-functions-crud.md",
+          "variant": null,
+          "result": "FAILED",
+          "duration": "907s",
+          "mode": "ci-nightly",
+          "reportHref": "test-reports/2026-11-25/admin-functions-crud.md"
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "runs": [
@@ -4638,5 +4647,5 @@
       ]
     }
   ],
-  "generated": "2026-11-24T10:03:11.896Z"
+  "generated": "2026-11-25T08:41:29.341Z"
 }

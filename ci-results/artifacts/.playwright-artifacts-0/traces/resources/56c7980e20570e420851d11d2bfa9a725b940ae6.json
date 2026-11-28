@@ -1,0 +1,16 @@
+{
+  "result": {
+    "id": "a76a22a8-4b8d-413d-bf7c-019f7e415635",
+    "deviceOperatingSystem": 2,
+    "imei": "350123456789012",
+    "model": "Galaxy Tab A8 x x x x x x x x x",
+    "name": "Auto Test Device",
+    "refNo": "Device000045",
+    "simCardNo": "89370000000022099999"
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unAuthorizedRequest": false,
+  "__abp": true
+}

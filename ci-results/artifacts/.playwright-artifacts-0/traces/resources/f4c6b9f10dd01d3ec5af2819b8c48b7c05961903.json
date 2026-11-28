@@ -1,0 +1,102 @@
+{
+  "result": {
+    "totalCount": 71,
+    "items": [
+      {
+        "id": "a76a22a8-4b8d-413d-bf7c-019f7e415635",
+        "refNo": "Device000045",
+        "name": "Auto Test Device",
+        "model": "Galaxy Tab A8 x x x x x x x x x",
+        "simCardNo": "89370000000022099999",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      },
+      {
+        "id": "ee023dac-fbb0-4c60-acfa-03b9e93cc501",
+        "refNo": "Device0079",
+        "name": "Samsung",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022096219",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      },
+      {
+        "id": "120aeb93-10c8-4b21-8935-094dd19256eb",
+        "refNo": null,
+        "name": "Tablet-DOH0674NC",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022096771",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": "ZFDOH0674NC"
+      },
+      {
+        "id": "43902b67-fffd-47b8-b505-0b8fa41f672c",
+        "refNo": "Device0064",
+        "name": "Samsung",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022096946",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      },
+      {
+        "id": "b06145ed-2f7b-4071-a265-1069938dcd4b",
+        "refNo": "Device0075",
+        "name": "Samsung",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022098181",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      },
+      {
+        "id": "cad12b79-1d03-4b72-9ea4-12a0f4e0b9b7",
+        "refNo": "Device0082",
+        "name": "Samsung",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022097605",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      },
+      {
+        "id": "c1d5b035-7b1a-4509-ad17-15e3d7d2b42b",
+        "refNo": "Device0037",
+        "name": "Tablet-DOH0637NC",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022098462",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      },
+      {
+        "id": "8ebac808-91cf-4a71-bead-1c2db000d2e6",
+        "refNo": "Device0085",
+        "name": "DOH 0584 NC Samsung Tablet - Hantam",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022098470",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": "DOH0584NC"
+      },
+      {
+        "id": "0520a316-c37d-4435-b030-1da994ac155e",
+        "refNo": null,
+        "name": "NCDH 246 NC Samsung Tablet - Hantam",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022097001",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": "NCDH246NC"
+      },
+      {
+        "id": "b7de977b-352c-4fcf-a714-1e4a1bbcc940",
+        "refNo": "Device0049",
+        "name": "Samsung",
+        "model": "Galaxy Tab A8",
+        "simCardNo": "89370000000022096243",
+        "deviceOperatingSystem": 2,
+        "registrationNumber": null
+      }
+    ]
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unAuthorizedRequest": false,
+  "__abp": true
+}
